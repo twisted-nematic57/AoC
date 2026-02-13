@@ -37,7 +37,7 @@ Each solution can be run, tested on different sets of inputs (if applicable), an
    * All input file names start with `i_` and end with `.txt`.
    * `{ProblemSpecifier}` is the **name of the solution class** that will use that file as input.
    * `{Test#}` is a **one-digit integer (0-9)** that specifies the test number. This field allows you to specify a different input for your solution without having to repeatedly modify the same file to change testcases. Test number 0 is the case that is accessed when you use the "Run Solution" Run/Debug configuration.
-   * e.g., `inputs/AdventOfCode/i_y2015_d01p1_6.txt` contains input for the solution to Day 7, Part 1 of Advent of Code 2025, assuming my solution class for that problem is named `y2025_d07p1` under the `AdventOfCode` package. I can run it using the "Run Test #6" Run/Debug configuration.
+   * e.g., `inputs/AdventOfCode/i_y2015_d07p1_6.txt` contains input for the solution to Day 7, Part 1 of Advent of Code 2025, assuming my solution class for that problem is named `y2025_d07p1` under the `AdventOfCode` package. I can run it using the "Run Test #6" Run/Debug configuration.
 
 Every time before clicking the Run button, click anywhere in the editor window containing your solution's source code. If you ever get strange string errors that occur outside your solution code, try clicking in the solution source code window and try again.
  * To **run** your solution, set the current Run/Debug Configuration to "Run Solution". Then, click the Run button.
